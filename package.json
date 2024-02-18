@@ -5,12 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< HEAD
+
     "start": "next start",
     "lint": "next lint"
-=======
-    "start": "next start"
->>>>>>> 5df6db5ac3d64861e637e50e468579d5f74eb651
+
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
@@ -20,11 +18,7 @@
     "firebase": "^10.7.2",
     "mui": "^0.0.1",
     "next": "^14.1.0",
-<<<<<<< HEAD
     "react": "^18.2.0",
-=======
-    "react": "^18",
->>>>>>> 5df6db5ac3d64861e637e50e468579d5f74eb651
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.48.2",
     "react-icons": "^5.0.1",
