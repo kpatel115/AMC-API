@@ -18,7 +18,11 @@ import {
 // just to display the stuff
 type ModalProps = {
   // id: string;
+<<<<<<< HEAD
   open: any;
+=======
+  open: boolean;
+>>>>>>> 5df6db5ac3d64861e637e50e468579d5f74eb651
   update: any;
   id: any;
   onClose?: () => void;
@@ -31,10 +35,20 @@ interface UpdateData {
 }
 
 const UpdateModal = (props: ModalProps) => {
+<<<<<<< HEAD
   if (!props.open) return <></>;
   const [title, setTitle] = useState("");
   const [note, setNote] = useState("");
   const [loading, setLoading] = useState(false);
+=======
+
+  if (!props.open) return <></>;
+
+  const [title, setTitle] = useState("");
+  const [note, setNote] = useState("");
+  const [loading, setLoading] = useState(false);
+
+>>>>>>> 5df6db5ac3d64861e637e50e468579d5f74eb651
   const dataToSend: UpdateData = {
     title: title,
     note: note,
